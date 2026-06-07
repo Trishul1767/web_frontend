@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trishul's Web</title>
+</head>
+
+<body>
+    <h1>My First web</h1>
+    <p>There isn't anything to see here😔 OR... </p>
+    <p>Here Are Photos Of Two Greatest Bikes Ever Made.</p>
+    
+    <figure>
+        <img src="https://i.pinimg.com/736x/33/91/de/3391de4e4bf73ecae8583c0473af8823.jpg" alt="Canyon" width="100">
+        <figcaption>Canyon! The Rolls Royce Of Bikes With A Bunch Of Sensors And Even Hill Climb Assist. Here's A Video Of <a href="https://youtu.be/iq9mVy8Awto?si=JlZsyrolIB_yl8Yr">Canyon</a>.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://i.pinimg.com/736x/d6/3f/0f/d63f0fb8149a3322602edfb6aafc9348.jpg" alt="Colnago" width="150">
+        <figcaption>Colnago! The Bugatti Of Bikes. Here's A Video Featuring <a href="https://youtu.be/-9XaWj2yevI?si=TiUqD-gSF9V6L3p7">Colnago</a>.</figcaption>
+    </figure>
+    
+</body>
+
+</html>
