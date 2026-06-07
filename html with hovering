@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trishul's Web</title>
+    
+    <style>
+        /* This tells CSS to look for the element with the class name "bike-container" */
+        .bike-container {
+            display: flex; /* This is the magic command that puts things side-by-side */
+            gap: 20px;     /* This adds a nice little space between the two bikes */
+	    justify-content: center; /* This centers the bikes on the page */
+            padding-top: 50px; 
+        }
+
+        /* Let's also make the images look a bit neater */
+        figure {
+            margin: 0; /* Removes default browser spacing around the figures */
+            border: 1px solid #ccc; /* Adds a light grey border */
+            padding: 10px; /* Adds space inside the border */
+	    border-radius: 8px; /* Smooth, rounded corners */
+            
+            /* The Magic: This tells the browser to animate any changes smoothly */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+        /* This applies ONLY when the user's mouse is hovering over the figure */
+        figure:hover {
+            transform: translateY(-10px); /* Lifts the box up by 10 pixels */
+            box-shadow: 0px 15px 25px rgba(0,0,0,0.15); /* Adds a soft drop shadow */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My First web</h1>
+    <p>There isn't anything to see here😔 OR... </p>
+    <p>Here Are Photos Of Two Greatest Bikes Ever Made.</p>
+    
+    <div class="bike-container">
+        
+        <figure>
+            <img src="https://i.pinimg.com/736x/33/91/de/3391de4e4bf73ecae8583c0473af8823.jpg" alt="Canyon" width="150">
+            <figcaption>Canyon! The Rolls Royce Of Bikes With A Bunch Of Sensors And Even Hill Climb Assist. Here's A Video Of <a href="https://youtu.be/iq9mVy8Awto?si=JlZsyrolIB_yl8Yr">Canyon</a>.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/d6/3f/0f/d63f0fb8149a3322602edfb6aafc9348.jpg" alt="Colnago" width="170">
+            <figcaption>Colnago! The Bugatti Of Bikes. Here's A Video Featuring <a href="https://youtu.be/-9XaWj2yevI?si=TiUqD-gSF9V6L3p7">Colnago</a>.</figcaption>
+        </figure>
+
+    </div>
+    
+</body>
+
+</html>
