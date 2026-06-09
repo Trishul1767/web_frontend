@@ -3,9 +3,13 @@
 <body style="background-color:powderblue;">
 
 <p>I am normal</p>
+
+/* the syntax of style attribute is < tagname style = "Property : Value:"> */
+
 <p style="color:red;">I am red</p>
 <p style="color:blue;">I am blue</p>
 <p style="font-size:50px;">I am big</p>
+
 
 </body>
 </html>
